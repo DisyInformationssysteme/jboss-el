@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.disy.oss</groupId>
   <artifactId>jboss-el</artifactId>
-  <version>2.0.2-disy1-SNAPSHOT</version>
+  <version>2.0.2-disy3-SNAPSHOT</version>
   <description>JBoss EL is a extended EL implementation, distributed with Seam</description>
 
   <properties>
