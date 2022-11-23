@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.Map;
-import javax.el.ELException;
-import javax.el.MethodInfo;
-import javax.el.PropertyNotWritableException;
+
+import jakarta.el.ELException;
+import jakarta.el.MethodInfo;
+
 import org.jboss.el.lang.EvaluationContext;
 
 public final class AstClosureSuffix extends ValueSuffixNode {

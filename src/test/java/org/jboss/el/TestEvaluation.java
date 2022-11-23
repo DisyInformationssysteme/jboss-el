@@ -3,9 +3,9 @@ package org.jboss.el;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.el.ExpressionFactory;
-import javax.el.MethodExpression;
-import javax.el.ValueExpression;
+import jakarta.el.ExpressionFactory;
+import jakarta.el.MethodExpression;
+import jakarta.el.ValueExpression;
 
 import org.jboss.el.beans.Example;
 
@@ -14,7 +14,6 @@ import junit.framework.TestCase;
 public class TestEvaluation extends TestCase {
     
     private ExpressionFactory factory = null;
-    private ExpressionFactory sun = null;
     private ELContextImpl context = null;
     
     public void testListeners() throws Exception {
@@ -117,6 +116,7 @@ public class TestEvaluation extends TestCase {
     
     public void setUp() throws Exception {
         super.setUp();
+        System.setProperty("jakarta.el.ExpressionFactory", "org.jboss.el.ExpressionFactoryImpl");
         this.factory = new ExpressionFactoryImpl();
         //this.sun = new com.sun.el.ExpressionFactoryImpl();
         this.context = new ELContextImpl();

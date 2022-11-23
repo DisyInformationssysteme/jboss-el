@@ -21,12 +21,9 @@ import java.beans.PropertyEditor;
 import java.beans.PropertyEditorManager;
 import java.math.BigDecimal;
 import java.math.BigInteger;
-import javax.el.ELContext;
 
-import javax.el.ELException;
-import javax.el.PropertyNotFoundException;
-import org.jboss.el.MethodResolver;
-import org.jboss.el.TypeResolver;
+import jakarta.el.ELException;
+import jakarta.el.PropertyNotFoundException;
 
 import org.jboss.el.util.MessageFactory;
 

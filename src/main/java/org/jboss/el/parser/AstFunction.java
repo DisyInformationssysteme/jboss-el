@@ -2,11 +2,10 @@
 
 package org.jboss.el.parser;
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import javax.el.ELException;
-import javax.el.FunctionMapper;
+import jakarta.el.ELException;
+import jakarta.el.FunctionMapper;
 
 import org.jboss.el.lang.EvaluationContext;
 import org.jboss.el.util.MessageFactory;
